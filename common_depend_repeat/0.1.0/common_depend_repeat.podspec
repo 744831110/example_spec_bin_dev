@@ -10,6 +10,9 @@
   s.platform     = :ios, '9.0'
   s.vendored_frameworks = 'common_depend_repeat/0.1.0/common_depend_repeat.framework'
   s.ios.deployment_target = '9.0'
+  s.dependency 'AFNetworking'
+  s.dependency 'Alamofire'
+  s.dependency 'RxSwift'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   end
