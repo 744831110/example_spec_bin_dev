@@ -5,7 +5,7 @@
   s.homepage         = "https://github.com/744831110/example_spec_bin_dev.git"
   s.license          = 'Code is MIT, then custom font licenses.'
   s.author           = { "Orta" => "orta.therox@gmail.com" }
-  s.source           = { :http => 'https://ios-cache-framework-1258699659.cos.ap-guangzhou.myqcloud.com/Moya/13.0.1/-4351437087935917336/Moya.zip' }
+  s.source           = { :http => 'https://ios-cache-framework-1258699659.cos.ap-guangzhou.myqcloud.com/Moya/13.0.1/2210926120/Moya.zip' }
 
   s.platform     = :ios, '9.0'
   s.vendored_frameworks = 'Moya.framework'
