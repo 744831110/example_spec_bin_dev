@@ -11,7 +11,7 @@
   s.vendored_frameworks = 'Masonry.framework'
 
 
-  s.module_name = 'Masonry'
+
   s.ios.deployment_target = '9.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', "BUILD_LIBRARY_FOR_DISTRIBUTION" => 'YES' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', "BUILD_LIBRARY_FOR_DISTRIBUTION" => 'YES' }
