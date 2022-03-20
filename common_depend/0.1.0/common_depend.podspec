@@ -13,7 +13,7 @@
   s.dependency 'Masonry'
   s.dependency 'AFNetworking'
   s.dependency 'common'
-  s.module_name = 'common_depend'
+
   s.ios.deployment_target = '9.0'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', "BUILD_LIBRARY_FOR_DISTRIBUTION" => 'YES' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64', "BUILD_LIBRARY_FOR_DISTRIBUTION" => 'YES' }
